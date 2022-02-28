@@ -1,0 +1,486 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Présentation
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  height: 100px;
+  background-color: rgba(189, 203, 225, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+#logo {
+  justify-self: flex-start;
+  height: 75px;
+  width: 75px;
+  transform: translate(15px, 0);
+}
+
+li {
+  margin-right: 15px;
+  font-family: "Cormorant SC", serif;
+  font-size: 25px;
+}
+
+#apropos {
+  height: 900px;
+  background-image: url("../img/background.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#apropos P {
+  height: 70px;
+  width: 400px;
+  background-color: rgba(189, 203, 225, 1);
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logos img {
+  width: 400px;
+  height: 400px;
+  transform: translate(0, -12px);
+  justify-self: center;
+  align-self: center;
+}
+
+/* Nos Produis */
+
+/* .titre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #bdcbe1;
+  color: white;
+  font-size: 35px;
+  font-family: "Cormorant SC", serif;
+}
+
+.shop {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 25px;
+}
+
+#nosproduits img {
+  height: 250px;
+  width: 250px;
+  transform: rotate(25deg);
+}
+
+.tondeuse {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rasage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shampoing {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.produit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 15%;
+  background-color: #bdcbe1;
+}
+
+.prix {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+  height: 25px;
+  border: 1px solid black;
+  background-color: #011627;
+  margin-top: 25px;
+}
+
+.prix p {
+  color: white;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 10%;
+  margin-top: 25px;
+}
+
+.description p {
+  text-align: center;
+} */
+
+/* Avis */
+
+/* #avis {
+  background-color: #bdcbe1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+#avis p {
+  text-align: center;
+}
+
+#avis img {
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card title img {
+  height: 150px;
+}
+
+.rate img {
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+} */
+
+/* Photo de transition */
+
+/* .decoration {
+  height: 300px;
+  background-image: url("../img/pexels-mídia-897271.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.7;
+} */
+
+/* A propos de nous  */
+
+/* .apropos {
+  background-color: #bdcbe1;
+  position: relative;
+  z-index: -99;
+}
+
+.text1 {
+  position: relative;
+  top: 70px;
+  left: 100px;
+  width: 1000px;
+  height: 500px;
+  background-color: white;
+  color: black;
+  font-family: "Cormorant SC", serif;
+}
+
+.text1 h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 80px;
+}
+
+.textvertical {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transform: translate(0, -30px);
+}
+.textvertical p {
+  font-size: 30px;
+  padding: 25px;
+}
+
+.text2 {
+  width: 662px;
+  height: 342px;
+  background-color: black;
+  color: white;
+  position: relative;
+  top: -90px;
+  left: 545px;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+.text2image {
+  position: absolute;
+  transform: translate(1000px, -817px);
+  z-index: -1;
+  width: 500px;
+  height: 800px;
+  opacity: 0.8;
+} */
+
+/* Contact */
+
+/* .separation {
+  height: 2px;
+  background-color: black;
+}
+
+#contact {
+  height: 400px;
+  font-family: "Cormorant SC", serif;
+  display: flex;
+  background-color: #c4c4c4;
+  text-align: left;
+  justify-content: space-between;
+}
+
+#logocarte {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+#agenda {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+iframe {
+  height: 300px;
+  width: 450px;
+  position: absolute;
+  transform: translate(769px, 72px);
+}
+
+#formulaire {
+  position: absolute;
+  transform: translate(34px, -335px);
+}
+
+form {
+  width: 400px;
+  height: 178px;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  border-color: black;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin-left: 0.5em;
+}
+
+#txtname,
+#txtmail {
+  transform: translate(-38px, 0);
+}
+#message {
+  transform: translate(-20px, 0);
+}
+
+.information {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info {
+  height: 55px;
+  display: flex;
+  align-items: center;
+}
+
+.info p {
+  font-size: 20px;
+  color: white; */
+/* } */
+/* Footer */
+
+footer {
+  height: 50px;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.copyright {
+  margin-left: 10px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+}
+footer ul li {
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.contactdev {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contactdev li {
+  font-size: 16px;
+  font-family: "Dancing Script", cursive;
+}
+.contactdev img {
+  transform: translate(-20px, 0);
+}
+@media screen and (max-width: 700px) {
+  .contactdev li {
+    font-size: 12px;
+    margin-right: 10px;
+  }
+
+  .copyright {
+    font-size: 12px;
+    padding-right: 20px;
+  }
+  footer div {
+    font-size: 12px;
+    justify-self: flex-start;
+  }
+  .contactdev img {
+    transform: scale(0.5, 0.5) translate(-20px);
+  }
+  #cgv li {
+    font-size: 12px;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 488px) {
+  .contactdev li {
+    font-size: 8px;
+    margin-right: 10px;
+  }
+
+  .copyright {
+    font-size: 10px;
+  }
+  footer div p {
+    font-size: 8px;
+  }
+  .contactdev img {
+    transform: scale(0.5, 0.5) translate(-20px);
+  }
+  #cgv li {
+    font-size: 8px;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* @media screen and (max-width: 968px) {
+  .shop {
+    display: flex;
+    flex-direction: column;
+  }
+  .produit {
+    margin-top: 25px;
+  }
+
+  .photo img {
+    height: 450px;
+  } */
+
+/* Réduire les polices */
